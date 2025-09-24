@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'massage_model.dart';
+import '../model/massage_model.dart';
 
 class MessageScreen extends StatelessWidget {
   final List<Message> messages = [

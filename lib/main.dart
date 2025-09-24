@@ -1,5 +1,5 @@
-import 'package:chatapp/cart_screen.dart';
-import 'package:chatapp/chart_list.dart';
+import 'package:chatapp/features/massage/view/cart_screen.dart';
+import 'package:chatapp/features/massage/view/test_day_selected.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -19,7 +19,8 @@ class MyApp extends StatelessWidget {
       
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
       ),
-      home: MessageScreen(),
+      home: DaysSelectionScreen(),
+      //MessageScreen(),
       //home: ChartListScreen(charts: []),
     );
   }
